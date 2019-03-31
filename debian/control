@@ -1,0 +1,14 @@
+Source: pzhbluebus
+Section: utils
+Priority: extra
+Maintainer: chainsx <chainsx@outlook.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.6
+Vcs-Git: git://git@github.com:chainsx/PZH-BusService.git
+Vcs-Browser: https://github.com/chainsx/PZH-BusService
+
+Package: pzhbluebus
+Architecture: all
+Depends: ${misc:Depends}, python3
+Description: PZH bus client
+ A simple bus tool for linux.

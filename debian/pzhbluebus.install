@@ -1,0 +1,4 @@
+server.py /usr/share/pzhbluebus
+index.html /usr/share/pzhbluebus
+favicon.ico /usr/share/pzhbluebus
+pzhbluebus /usr/bin
