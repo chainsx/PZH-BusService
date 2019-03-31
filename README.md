@@ -2,7 +2,7 @@
 
 ## 简介
 
-> 受 [chainsx](https://github.com/chainsx) 所托写的工具，感谢他提供的API
+> 感谢 [dtsdao](https://github.com/dtadao) 所写的工具，感谢他提供的源码
 
 遵循 GPL v3.0 协议公开源码
 
@@ -33,6 +33,14 @@
 4. 使用 `python3 server.py` 运行代理服务器
 
 5. 打开浏览器访问你设置的 `locAdd` 和 `locPort` 就可以看到HTML页面
+
+## 构建deb安装包
+
+1. 使用`dpkg-buildpackage`构建软件包
+
+2. `pzhbluebus`运行
+
+3. `server.py`的绝对路径为`/usr/share/pzhbluebus/server.py`
 
 ## 注意事项
 
