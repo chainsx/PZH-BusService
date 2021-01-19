@@ -5,7 +5,7 @@ import gzip, json
 from urllib import request
 from http.server import BaseHTTPRequestHandler, HTTPServer
 
-constConf = {'servAdd':'http://221.10.182.250:55555', 'locAdd':'127.0.0.1', 'locPort':5555}
+constConf = {'servAdd':'http://125.66.233.216:55555', 'locAdd':'127.0.0.1', 'locPort':5555}
 contentHTML = ''
 
 class BusService(BaseHTTPRequestHandler):
